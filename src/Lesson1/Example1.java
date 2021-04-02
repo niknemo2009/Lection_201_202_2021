@@ -1,5 +1,8 @@
 package Lesson1;
 
+import lombok.Data;
+import lombok.val;
+
 import java.time.LocalDate;
 
 public class Example1 {
@@ -8,9 +11,12 @@ public class Example1 {
         System.out.println("dsdsd");
         Human hum=new Human("Ivan",20,LocalDate.of(2001,1,1));
         System.out.println(hum.age);
+        //hum.getAge();
+        //val  e=90;
+
     }
 }
-
+@Data
 class Human{
     String name;
     int age;

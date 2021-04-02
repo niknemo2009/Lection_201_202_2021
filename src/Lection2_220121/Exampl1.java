@@ -68,7 +68,7 @@ class TestAnalisator{
       //  System.out.println(Exampl1.wer);
         ex1.one();
       //  ex1.two();
-        throw  new MyException();
+      //  throw  new MyException();
        // Exampl1.one();
 
 
